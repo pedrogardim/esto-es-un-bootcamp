@@ -17,6 +17,5 @@ export default defineConfig({
         entryFileNames: "main.js",
       },
     },
-    copyPublicDir: false,
   },
 });
