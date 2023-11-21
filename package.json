@@ -1,6 +1,6 @@
 {
   "name": "esto-es-un-bootcamp",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "dev": "vite",
