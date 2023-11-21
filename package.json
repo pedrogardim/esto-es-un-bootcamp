@@ -1,6 +1,6 @@
 {
-  "name": "ayayay",
-  "version": "0.0.3",
+  "name": "@pg/ayayay",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
