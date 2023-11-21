@@ -1,0 +1,22 @@
+.spinner-container {
+  animation: spinner-animation 4s linear infinite;
+  height: 10em;
+  width: 10em;
+}
+
+.spinner-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@keyframes spinner-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
