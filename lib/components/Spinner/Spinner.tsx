@@ -16,7 +16,7 @@ interface SpinnerProps extends React.HTMLAttributes<HTMLDivElement> {
  */
 const Spinner = ({
   variant = "serious",
-  speed = 1,
+  speed = 0.5,
   ...props
 }: SpinnerProps) => {
   const audio = useRef(new Audio("/assets/ayayay.mp3"));
@@ -27,7 +27,7 @@ const Spinner = ({
     audio.current.currentTime = 0;
     audio.current.play();
     setIsClicked(true);
-    setTimeout(() => setIsClicked(false), 2000);
+    setTimeout(() => setIsClicked(false), 1500);
   };
 
   useEffect(() => {
