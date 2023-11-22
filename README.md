@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# "Esto es un bootcamp"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![210321135730-trnd-wheel-of-fortune-winner-donation (1)](https://github.com/pedrogardim/esto-es-un-bootcamp/assets/81443264/2356cd28-7ffe-4e9b-9150-c53c87248b39)
 
-Currently, two official plugins are available:
+**Bienvenido Full Stack Developer,**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+¿Estás cansado de componentes aburridos y sin chispa? ¡No busques más! Esta librería, inspirada en el mítico [@Dave86dev](https://github.com/Dave86dev), profesor de nuestro bootcamp, trae la magia directamente a tus proyectos React.
 
-## Expanding the ESLint configuration
+## Instalación 🛠️
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm i esto-es-un-bootcamp
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Componentes ⚛️
+### Spinner
+
+[texto aqui mencionando algo del ayayay y que cuando le haces click]
+
+**Props**
+- `variant`: `"serious" | "amused"`
+- `speed`: `number`
+
+```jsx
+import { Spinner } from "esto-es-un-bootcamp";
+
+const AyAyAyComponent = () => {
+  return (
+    <div>
+      <h1>Esto es un bootcamp</h1>
+      <Spinner variant="amused" speed={1} />
+    </div>
+  );
+};
+
+export default AyAyAyComponent;
+
+```
+
+
+      
+### ~`DeathRoulette`~ (Coming soon...)
+
+## Agradecimientos
+- A David Ochando por ser un profesor tan dedicado a la vez que hizo que el boo
+- A GeeksHub Academy por la increíble experiencia del bootcamp.
+- A [Paco](https://github.com/paco-fuentes) por la imagen.
+
+
+
