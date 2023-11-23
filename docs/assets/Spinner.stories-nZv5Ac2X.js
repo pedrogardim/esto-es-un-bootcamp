@@ -11,4 +11,4 @@ import{r as p}from"./index-XiNr8FW2.js";import"./_commonjsHelpers-5-cIlDoe.js";c
     // primary: true,
   }
 }`,...(_=(m=i.parameters)==null?void 0:m.docs)==null?void 0:_.source}}};const L=["Normal"];export{i as Normal,L as __namedExportsOrder,j as default};
-//# sourceMappingURL=Spinner.stories-Pv-QLXdG.js.map
+//# sourceMappingURL=Spinner.stories-nZv5Ac2X.js.map
