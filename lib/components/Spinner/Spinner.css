@@ -5,6 +5,7 @@
   cursor: pointer;
   transition: 0s;
   user-select: none;
+  transform-origin: 50% 50%;
 }
 
 .spinner-container:hover {
@@ -17,7 +18,6 @@
 }
 
 .spinner-container > img {
-  position: absolute;
   height: 100%;
   width: 100%;
   object-fit: contain;
