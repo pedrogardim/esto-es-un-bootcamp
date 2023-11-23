@@ -1,7 +1,9 @@
 {
   "name": "esto-es-un-bootcamp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
+  "homepage": "https://pedrogardim.github.io/esto-es-un-bootcamp/",
+  "repository": "github:pedrogardim/esto-es-un-bootcamp",
   "scripts": {
     "dev": "vite",
     "build": "tsc --p ./tsconfig.build.json && vite build",
