@@ -19,7 +19,7 @@ const Spinner = ({
   speed = 0.5,
   ...props
 }: SpinnerProps) => {
-  const audio = useRef(new Audio("/assets/ayayay.mp3"));
+  const audio = useRef(new Audio("./assets/ayayay.mp3"));
   const [isClicked, setIsClicked] = useState(false);
 
   const handleSpinnerClick = () => {
@@ -42,7 +42,7 @@ const Spinner = ({
       onClick={handleSpinnerClick}
     >
       <img
-        src={`/assets/ochando_${variant}.png`}
+        src={`./assets/ochando_${variant}.png`}
         alt="ochando"
         draggable="false"
       />
